@@ -13,7 +13,7 @@ public class DiscountByAmount extends Discount{
 		// TODO Auto-generated constructor stub
 	}
 
-	// Mujda F. overriding and discounting by the amount
+	//  overriding and discounting the amount
 	@Override
 	public double applyDiscount(double price) {
 		// TODO Auto-generated method stub

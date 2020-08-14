@@ -17,13 +17,13 @@ public abstract class Discount {
 	}
 	
 	
-	// Mujda F. it has constructor
+	// it has a constructor
 	public Discount(double a)
 	{
 		amount = a;
 	}
 	
-	// Mujda F. abstact method because we need to apply discount based on object that is by amount or percentage
+	// we need to apply the discount based on object that is by amount and by the percentage
 	public abstract double applyDiscount(double price);
 	
 	

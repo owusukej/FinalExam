@@ -12,7 +12,7 @@ public class DiscountByPercentage extends Discount{
 		super(a);
 	}
 
-	// Mujda F. overriding and discounting by the percentage
+	// overriding and discounting the percentage
 	@Override
 	public double applyDiscount(double price) {
 		double amountToSub = (100.0/price)*this.amount;
